@@ -1,0 +1,295 @@
+/* MAIN LAYOUT STYLES */
+
+html {
+  font-family: 'Basic', sans-serif;
+}
+
+/* HEADER AND  NAVIGATION------------ */
+
+.name {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #f7f4f4;
+  padding: 18px 0;
+}
+
+.main-nav ul {
+  width: 90%;
+  margin: auto;
+}
+
+.main-nav ul li {
+  list-style: none;
+  padding: .4rem 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  display: block;
+  padding: 9px 0;
+  background-color: white;
+  color: black;
+}
+
+.nav-label {
+  font-weight: bold;
+}
+
+/* Header img --------------------- */
+
+.grid img {
+  padding-top: 2.2rem;
+  padding-bottom: 1rem;
+  width: 15rem;
+}
+
+.description {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* BODY STYLE ------------------- */
+
+main {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+main img {
+  width: 100%;
+  height: auto;
+}
+
+main h2 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding-bottom: 2rem;
+}
+
+.container h2 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin: 45px 0;
+}
+
+.container h1 {
+  margin-bottom: 0;
+}
+
+.container p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin: 30px 0;
+}
+
+/* FOOTER ------------- */
+
+footer {
+  background-color: #f7f4f4;
+}
+
+.footer-content {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.footer-content p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ftr-contact {
+  font-weight: bold;
+  color: grey;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.ftr-div {
+  margin: 0 19% 10% 19%;
+  padding-left: 20px;
+}
+
+.ftr-nav {
+  margin-top: 1rem;
+  border-top: 1px solid lightgrey;
+  padding: 10% 3%;
+  font-size: .9rem;
+  font-weight: bold;
+  line-height: 50%
+}
+
+.ftr-nav a {
+  color: black;
+  text-decoration: none;
+}
+
+/* HIDES OTHER LINKS IN FOOTER */
+.link{
+  display: none;
+}
+#backToTop{
+  display: inline;
+  float: right;
+}
+
+@media (min-width: 1024px) {
+  /* OVERALL styles */
+  .main-wrapper {
+    background-color: #f7f4f4;
+  }
+  .minor-wrapper {
+    background-color: white;
+    margin: 0 1.5rem;
+    padding: 2rem 0;
+  }
+  /* Header styles */
+  header {
+    position: relative;
+    height: 400px;
+    padding: 2rem 2rem;
+  }
+  .header-prt-one {
+    height: 80px;
+  }
+  .name {
+    margin-left: 1.5rem;
+    float: left;
+  }
+  .main-nav {
+    float: right;
+  }
+  .main-nav ul {
+    width: 300px;
+  }
+  .main-nav ul:last-child {
+    padding: 0;
+  }
+  .main-nav li {
+    display: inline-block;
+  }
+  .main-nav a {
+    background-color: inherit;
+    padding: 0 20px 0 0;
+  }
+  .grid {
+    display: grid;
+    width: 45%;
+    grid-template-columns: 1fr;
+  }
+  .grid img {
+    float: right;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+  .grid p {
+    width: 500px;
+    color: grey;
+  }
+  .description {
+    position: absolute;
+    top: 45%;
+  }
+  /* Main content */
+  main {
+    display: block;
+  }
+  /* .main-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5rem;
+    max-width: 1500px;
+  } */
+  .container {
+    width: 25rem;
+    display: inline-block;
+    padding: 5px;
+  }
+  .container p {
+    width: 330px;
+  }
+  .flt-left {
+    float: left;
+  }
+  .flt-right {
+    float: right;
+  }
+  #backToTop{
+    display: none;
+  }
+}
+
+@media (min-width: 760px) {
+  header {
+    height: 400px;
+  }
+  .main-nav {
+    text-align: center;
+  }
+  .header-prt-one {
+    height: 80px;
+  }
+  .main-nav ul {
+    width: 500px;
+  }
+  .main-nav li {
+    display: inline-block;
+  }
+  .main-nav a {
+    background-color: inherit;
+    padding: 5px 30px 0 30px;
+  }
+  .container {
+    width: 20rem;
+    display: inline-block;
+    padding: 5px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: 0;
+  }
+  .grid img {
+    width: 24rem;
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+  header p {
+    margin: 25% 5%;
+  }
+  /* Footer ------------ */
+  .footer-content p {
+    width: 60%;
+    margin: auto;
+    padding: 3rem 0;
+  }
+  .ftr-div {
+    text-align: center;
+  }
+  .flt-left {
+    float: left;
+  }
+  .flt-right {
+    float: right;
+  }
+  .ftr-nav .link {
+    padding: 0 1rem;
+  }
+  .link{
+    display: inline;
+  }
+  #backToTop{
+    display: none;
+  }
+}
