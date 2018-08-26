@@ -157,6 +157,7 @@ footer {
     background-color: white;
     margin: 0 1.5rem;
     padding: 2rem 0;
+    max-width: 1400px;
   }
   /* Header styles */
   header {
@@ -267,7 +268,7 @@ footer {
     margin-right: 2rem;
   }
   header p {
-    margin: 25% 5%;
+    margin: 2rem 8rem;
   }
 
   /* Main Content */
