@@ -302,3 +302,14 @@ footer {
     display: none;
   }
 }
+
+@media (min-width: 1500px) {
+  body{
+    background-color: #F6F4F4;
+  }
+
+  .main-wrapper{
+    width: 1500px;
+    margin: auto;
+  }
+}
