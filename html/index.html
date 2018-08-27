@@ -41,11 +41,11 @@
       </div>
 
       <!-- Section containing the Student Image and description -->
-
-      <div id="student" class="grid flt-right">
+      <div id="student" class="profileImg grid flt-right">
         <img src="../images/responsive-layout-profile.png" alt="Profile Image of Student">
       </div>
-      <div class="description grid flt-left">
+      <!-- class="description grid flt-left" -->
+      <div class="profileTxt description grid flt-left">
         <p>Hi! I am a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
       </div>
     </header>
@@ -61,51 +61,56 @@
         <h2 id="portfolio">Portfolio</h2>
 
         <div class="container">
+          <figure>
 
-          <img src="../images/portfolio-1.png" alt="Marketing Page" class="sec-img">
-          <h1 class="title">Marketing Page</h1>
-          <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+            <img src="../images/portfolio-1.png" alt="Marketing Page" class="sec-img">
+            <h1 class="title">Marketing Page</h1>
+            <figcaption>This project shows the front page of a marketing website meant for a specific business I'm interested in.</figcaption>
+
+          </figure>
+        </div>
+
+        <div class="container">
+          <figure>
+            <img src="../images/portfolio-2.png" alt="Search page">
+            <h1 class="title">Search Page</h1>
+            <figcaption>This project searches through a specific database to find information that the user is trying to look up.</figcaption>
+          </figure>
 
         </div>
 
         <div class="container">
+          <figure>
 
-          <img src="../images/portfolio-2.png" alt="Search page">
-          <h1 class="title">Search Page</h1>
-          <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-
-        </div>
-
-        <div class="container">
-
-          <img src="../images/portfolio-3.png" alt="Travel app">
-          <h1 class="title">Travel App</h1>
-          <p>This project compare travel times based on different transportation methods and tells you the best one.</p>
+            <img src="../images/portfolio-3.png" alt="Travel app">
+            <h1 class="title">Travel App</h1>
+            <figcaption>This project compare travel times based on different transportation methods and tells you the best one.</figcaption>
+          </figure>
 
         </div>
 
         <div class="container">
-
-          <img src="../images/portfolio-4.png" alt="">
-          <h1 class="title">Map of Favorite Spots</h1>
-          <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-
+          <figure>
+            <img src="../images/portfolio-4.png" alt="">
+            <h1 class="title">Map of Favorite Spots</h1>
+            <figcaption>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</figcaption>
+          </figure>
         </div>
 
         <div class="container">
-
-          <img src="../images/portfolio-5.png" alt="Photo Gallery">
-          <h1 class="title">Photo Gallery</h1>
-          <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-
+          <figure>
+            <img src="../images/portfolio-5.png" alt="Photo Gallery">
+            <h1 class="title">Photo Gallery</h1>
+            <figcaption>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</figcaption>
+          </figure>
         </div>
 
         <div class="container">
-
-          <img src="../images/portfolio-6.png" alt="Calculator">
-          <h1 class="title">Calculator</h1>
-          <p> Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-
+          <figure>
+            <img src="../images/portfolio-6.png" alt="Calculator">
+            <h1 class="title">Calculator</h1>
+            <figcaption> Someone can enter in the numbers they want, and press the big blue button and get the result.</figcaption>
+          </figure>
         </div>
 
 
@@ -119,7 +124,7 @@
   <footer>
 
     <div class="footer-content">
-    <!-- Footer paragraph and
+      <!-- Footer paragraph and
     contact information -->
       <h2>Contact</h2>
       <p>If your're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
@@ -139,8 +144,8 @@
     <!-- Footer Navigation -->
 
     <nav class="ftr-nav">
-          <!-- Link is for 760px and 1024px -->
-          <!-- backToTop is for mobile -->
+      <!-- Link is for 760px and 1024px -->
+      <!-- backToTop is for mobile -->
       <ul>
         <li class="flt-left">Student Name</li>
         <li class="flt-right link"><a href="#top">Home</a></li>
