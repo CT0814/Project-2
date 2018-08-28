@@ -177,6 +177,7 @@ footer {
   }
   .main-nav ul {
     width: 300px;
+    text-align: right;
   }
   .main-nav ul:last-child {
     padding: 0;
@@ -212,7 +213,7 @@ footer {
     display: none;
   }
 
-  .profileImg {
+  /* .profileImg {
     display: block;
     width: 367px;
     float: right;
@@ -222,7 +223,7 @@ footer {
     width: 600px;
     margin: 0;
     padding: 5rem 0 0 1.5rem;
-  }
+  } */
   figure{
     margin: 0;
   }
@@ -271,7 +272,7 @@ footer {
   /* Main Content */
   .container {
     width: 20rem;
-    display: inline-block;
+    display: inline-grid;
     padding: 5px;
   }
   /* Footer ------------ */
